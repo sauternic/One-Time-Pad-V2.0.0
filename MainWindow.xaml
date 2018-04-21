@@ -1,0 +1,34 @@
+﻿<Window  
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="OnTimePad_WPF.MainWindow"
+        Title="Dateien aufs Fenster Ziehen! :)  Drag and Drop!" Visibility="Visible" Initialized="FensterLaden" Closed="FensterSchliessen"
+        Background="Aqua"
+        AllowDrop="True"
+        DragEnter="Form1_DragEnter"
+        DragLeave="Form1_DragLeave_1"
+        Drop="Form1_Drop_1">
+    <Viewbox>
+        <Canvas Name="Canvas1" Height="393.589" Width="606.495" >
+            <Label Content="On Time Pad oder Password XOR" Foreground="Blue" Height="47.591"  Width="475.467" FontSize="30" Canvas.Left="77.61" Canvas.Top="0"/>
+            <Button Content="_Datei(en) Wählen"  Height="40" Width="159" FontSize="18" Click="Button_Auswaehlen" Canvas.Top="53" Canvas.Left="10"/>
+            <Button Content="_Speicher-Ort" Height="39.799"  Width="159.197" Cursor="" FontSize="18" Click="Button_SpeicherOrt" Canvas.Left="10" Canvas.Top="97.391"/>
+            <Button Name="Button_Ver" Content="_Verschlüsseln"  Height="39.799"  Width="172.128" FontSize="18"  Canvas.Left="424.367" Canvas.Top="295" Click="Button_Verschluesseln"  />
+            <Button Name="Button_Ent" Content="_Entschlüsseln"  Height="39.799"  Width="172.128" FontSize="18"  Canvas.Left="424.367" Canvas.Top="339.799" Click="Button_Entschluesseln"  />
+            <TextBox Name="TextBox_SpeicherOrt" Height="39.799" Width="412.931" Canvas.Left="183.564" Canvas.Top="97.391" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+            <Button Content="Gross" Height="25" Canvas.Left="10"  Width="61.166" Canvas.Top="354.598" Click="Button_Gross"/>
+            <Button Content="Klein" Height="25" Canvas.Left="10"  Width="61.166" Canvas.Top="324.598" Click="Button_Klein" />
+            <Button Content="Speichern" Canvas.Left="10" Canvas.Top="294.598" Width="61.166" Height="25" Click="Button_Speichern"/>
+            <CheckBox Name="CheckBox1" Content="" Foreground="Red"  Canvas.Left="10" Canvas.Top="167" Width="96.076" Checked="CheckBox1_Checked" Unchecked="CheckBox1_Unchecked"/>
+            <PasswordBox PasswordChar="*" Name="Password1" Height="25.537" Canvas.Left="183.564" Canvas.Top="167" Width="193.899"/>
+            <PasswordBox PasswordChar="*" Name="Password2" Height="25.537" Canvas.Left="183.564" Canvas.Top="200.73" Width="193.899"/>
+            <TextBlock Name="TextblockPassword1" Foreground="Blue" Height="25.537" Canvas.Left="121.029" TextWrapping="Wrap" Text="Password:" Canvas.Top="167" Width="57.535"/>
+            <TextBlock Name="TextblockPassword2" Foreground="Blue" Canvas.Left="104.271" TextWrapping="Wrap" Text="Wiederholen:" Canvas.Top="197.537" Height="25.537" Width="74.293"/>
+            <Button Name="Button_Schlüssel" Content="Schlüssel Pfad" Height="23" Canvas.Left="78" Canvas.Top="142" Width="91" Click="Button_Schluessel"/>
+            <TextBox  Name="TextBox_Schluessel" Height="39.799" Canvas.Left="183.564" Canvas.Top="143.161" Width="412.931" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+            <TextBlock Name="TextBlock_Meldungen" Height="47" Canvas.Left="104" TextWrapping="Wrap" Canvas.Top="315" Width="315" FontSize="30"/>
+            <TextBlock x:Name="TextBlock_Infos"  Height="58" Canvas.Left="104" Foreground="Fuchsia" Canvas.Top="232" Width="492" FontSize="20"><Run Text="Multi"/><Run Language="de-de" Text=" "/><Run Text="File"/><Run Language="de-de" Text="s"/><Run Text=" and Drag and Drop! :-)"/><LineBreak/><Run Language="de-de" Text="(Für Textfeld -&gt; 'Datei Wählen')"/></TextBlock>
+            <TextBox Name="TextBox_PfadWaehlen" Height="40" Canvas.Left="184" Canvas.Top="53" Width="412" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" />
+        </Canvas>
+    </Viewbox>
+</Window>
