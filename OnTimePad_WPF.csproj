@@ -62,8 +62,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CHP.cs" />
-    <Compile Include="CNSAlgorythmus.cs" />
     <Compile Include="part_Auswaehlen.cs" />
     <Compile Include="part_Haubtprogramm.cs" />
     <Compile Include="MainWindow.xaml.cs">
