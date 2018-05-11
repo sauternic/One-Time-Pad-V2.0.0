@@ -172,7 +172,12 @@ namespace OnTimePad_WPF
             this.strArr_TextBox_PfadWaehlen = strArr;
             
             TextBox_SpeicherOrt.Text = fi1.DirectoryName;
+
             
+            //Das ist neu! Das Schlüssel Pfad nicht mehr gewählt werden muss! :))))
+            TextBox_Schluessel.Text = fi1.DirectoryName;
+
+
             this.Background = Brushes.Aqua;
 
             //Info! :)
