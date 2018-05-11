@@ -1,5 +1,6 @@
 ﻿using System;
 
+//master Teständerung
 namespace OnTimePad_WPF
 {
     class CHP

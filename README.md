@@ -1,15 +1,15 @@
 # On-Time-Pad
-Verschlüsselungs Programm
 
+## Verschlüsselungs Programm
 
-C# WPF
+### C# WPF
 
 Verschlüsselungs - Programm  => On-Time-Pad
 
 
 Einfach per Drag and Drop Dateien ins Fenster Ziehen.
 
-Wahlweise:
+### Wahlweise:
 
 - Password Verschlüsselung periodisch (nicht sehr sicher)
 
@@ -21,8 +21,12 @@ Einzige Chance ist wenn der Zufallsgenerator der Schlüsselerstellung nachgeahmt
 Aber das kann nur ein professioneller Kryptograph Beurteilen wie sicher der Zufallsschlüssel ist.
 
 
-Ps: Es können auch mehrere Dateien gleichzeitig Verschlüsselt werden! :))))
+**Und Achtung beim Entschlüsseln müssen die Namen der Dateien Stimmen, so wie sie erstellt werden.**
 
-      Und Achtung beim Entschlüsseln müssen die Namen der Dateien Stimmen, so wie sie erstellt werden.
+
+Ps: Es können auch mehrere Dateien gleichzeitig Verschlüsselt werden! :))))
+    Die Dateien werden vor dem Verschlüsseln Komprimiert mit dem Deflate Algorithmus
+
+    
 
 
