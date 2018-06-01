@@ -32,6 +32,13 @@ Aber das kann nur ein professioneller Kryptograph Beurteilen wie sicher der Zufa
 
 **Eigentlich Selbsterklärend. ;)**
 
+Verschlüsseln:
+![Verschlüsseln](https://github.com/sauternic/On-Time-Pad-V2.0.0/blob/master/Verschl%C3%BCsseln.gif)
+
+Entschlüsseln:
+![Entschlüsseln](https://github.com/sauternic/On-Time-Pad-V2.0.0/blob/master/Entschl%C3%BCsseln.gif)
+
+
 1. Haken links Mitte muss gesetzt sein, so das `On Time Pad:` steht links.
 2. Nur mit Drag and Drop die Datei(en) ins Fenster ziehen bis es Gelb wird dann loslassen
 3. Verschlüsseln Button Drücken, Fertig :)))
