@@ -32,10 +32,12 @@ Aber das kann nur ein professioneller Kryptograph Beurteilen wie sicher der Zufa
 
 **Eigentlich Selbsterklärend. ;)**
 
-Verschlüsseln:
+## Verschlüsseln:
 ![Verschlüsseln](https://github.com/sauternic/On-Time-Pad-V2.0.0/blob/master/Verschl%C3%BCsseln.gif)
 
-Entschlüsseln:
+
+
+## Entschlüsseln:
 ![Entschlüsseln](https://github.com/sauternic/On-Time-Pad-V2.0.0/blob/master/Entschl%C3%BCsseln.gif)
 
 
