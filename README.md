@@ -1,4 +1,4 @@
-﻿# On-Time-Pad Version 2.0.0
+# One-Time-Pad Version 2.0.0
 
 ## Verschlüsselungs Programm
 
@@ -33,12 +33,12 @@ Aber das kann nur ein professioneller Kryptograph Beurteilen wie sicher der Zufa
 **Eigentlich Selbsterklärend. ;)**
 
 ## Verschlüsseln:
-![Verschlüsseln](https://github.com/sauternic/On-Time-Pad-V2.0.0/blob/master/Verschl%C3%BCsseln.gif)
+![Verschlüsseln](https://github.com/sauternic/One-Time-Pad-V2.0.0/blob/master/Verschl%C3%BCsseln.gif)
 
 ---
 
 ## Entschlüsseln:
-![Entschlüsseln](https://github.com/sauternic/On-Time-Pad-V2.0.0/blob/master/Entschl%C3%BCsseln.gif)
+![Entschlüsseln](https://github.com/sauternic/One-Time-Pad-V2.0.0/blob/master/Entschl%C3%BCsseln.gif)
 
 
 1. Haken links Mitte muss gesetzt sein, so das `On Time Pad:` steht links.
