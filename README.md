@@ -18,7 +18,7 @@ Einfach per Drag and Drop Dateien ins Fenster Ziehen.
 - On-Time-Pad Verschlüsselung,  sehr sicher weil Schlüssel genau so lange wie die Datei.
 
 
-Der zufalls Generator ist die `RNGCryptoServiceProvider Klasse von C Sharp` die gemäss Beschreibung  
+Der zufalls Generator ist die **RNGCryptoServiceProvider Klasse von C Sharp** die gemäss Beschreibung  
 **starke Zufallszahlen** für Kryptographische Anwendungen Erzeugt!  
 
 Einzige Chance ist wenn der Zufallsgenerator der Schlüsselerstellung nachgeahmt werden kann.  
